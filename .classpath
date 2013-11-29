@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-3.2.4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/log4j:log4j:1.2.17"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aop-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aspects-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-beans-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-support-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-core-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-expression-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-instrument-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-instrument-tomcat-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-jdbc-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-jms-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-orm-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-oxm-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-test-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-tx-3.2.4.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
