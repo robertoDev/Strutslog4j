@@ -1,0 +1,13 @@
+Uso di log4j in Spring
+----------------------
+Log4j carica la sua configurazione da log4j.properties, il logger è impostato per scrivere sul file log.out
+
+Lettura properties da bean Spring
+---------------------------------
+In properties.xml il bean springProperties (SpringProperties) è una singleton che contiene direttamente le properties
+da gestire.
+
+Lettura properties da file
+--------------------------
+In beans.xml il bean appProperties (AppProperties) è una singleton alla quale viene passato il percorso completo del file
+properties da gestire.

@@ -2,6 +2,12 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="helloWorld" class="it.blackcat.springlog4j.HelloWorld" p:message="Hello World!"/>
-    <bean id="appProperties" class="it.blackcat.springlog4j.AppProperties" p:propFile="D:\\sviluppo\\idea\\SpringLog4j\\out\\production\\SpringLog4j\\myapp.properties" scope="singleton"/>
+    <bean id="springProperties" class="it.blackcat.springlog4j.SpringProperties"
+
+    p:exportPath="/dir1"
+    p:importPath="/dir2"
+
+
+            />
+
 </beans>
